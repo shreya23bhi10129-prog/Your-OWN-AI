@@ -1,6 +1,6 @@
 # VectorDB — Build a Vector Database from scratch
 
-A fully working **Vector Database** built from scratch in C++ with a web UI.  
+A fully working **Vector Database** built from scratch  with a web UI.  
 Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** powered by a local LLM via Ollama.
 
 > Built as an educational project to show how production vector databases like Pinecone, Weaviate, and Chroma actually work under the hood.
@@ -30,7 +30,7 @@ Your Text
 Ollama (nomic-embed-text)          ← converts text to a 768-dimensional vector
     │
     ▼
-HNSW Index (C++)                   ← indexes the vector in a multilayer graph
+HNSW Index                         ← indexes the vector in a multilayer graph
     │
     ▼
 Semantic Search                    ← finds nearest neighbors in vector space
